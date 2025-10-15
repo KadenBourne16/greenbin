@@ -1,0 +1,145 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="t0vOWZAhCUMH2MCdmsIc">
+    <mxGraphModel dx="1991" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-1" value="Smart Bin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="325" y="220" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-2" value="gateway node" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="850" y="-20" width="120" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-3" value="sensor nodes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-4" value="backend analytics" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="250" y="510" width="350" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-5" value="Operator " style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="120" width="120" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.2;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="A95L0dSoeI2Zwrx7vWlG-7" target="A95L0dSoeI2Zwrx7vWlG-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="230" as="sourcePoint" />
+            <mxPoint x="470" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.2;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="A95L0dSoeI2Zwrx7vWlG-1" target="A95L0dSoeI2Zwrx7vWlG-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="373" y="220" as="sourcePoint" />
+            <mxPoint x="344" y="17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-7" value="&lt;strong data-start=&quot;556&quot; data-end=&quot;578&quot;&gt;Data Out → System:&lt;/strong&gt; Bin fullness readings, battery status, sensor ID." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.808;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.072;exitY=-0.075;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="A95L0dSoeI2Zwrx7vWlG-9" target="A95L0dSoeI2Zwrx7vWlG-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="120" as="sourcePoint" />
+            <mxPoint x="480" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.094;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.858;exitY=-0.02;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="A95L0dSoeI2Zwrx7vWlG-1" target="A95L0dSoeI2Zwrx7vWlG-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="488" y="218" as="sourcePoint" />
+            <mxPoint x="417" y="21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-9" value="&lt;strong data-start=&quot;636&quot; data-end=&quot;657&quot;&gt;Data In ← System:&lt;/strong&gt; Configuration commands, threshold updates." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="30" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-14" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.83;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.033;entryY=0.963;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A95L0dSoeI2Zwrx7vWlG-17" target="A95L0dSoeI2Zwrx7vWlG-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="40" as="sourcePoint" />
+            <mxPoint x="750" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-15" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.008;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.021;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="A95L0dSoeI2Zwrx7vWlG-18" target="A95L0dSoeI2Zwrx7vWlG-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="90" as="sourcePoint" />
+            <mxPoint x="750" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-19" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.83;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.033;entryY=0.963;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A95L0dSoeI2Zwrx7vWlG-1" target="A95L0dSoeI2Zwrx7vWlG-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="515" y="303" as="sourcePoint" />
+            <mxPoint x="756" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-17" value="&lt;strong data-end=&quot;877&quot; data-start=&quot;856&quot; style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Data In ← System:&lt;/strong&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Network configuration, error handling instructions.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-20" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.008;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.021;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="A95L0dSoeI2Zwrx7vWlG-1" target="A95L0dSoeI2Zwrx7vWlG-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="519" y="230" as="sourcePoint" />
+            <mxPoint x="759" y="51" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-18" value="&lt;strong data-end=&quot;821&quot; data-start=&quot;799&quot; style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Data Out → System:&lt;/strong&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Forwarded sensor readings.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0.832;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.829;exitY=0.04;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="A95L0dSoeI2Zwrx7vWlG-29" target="A95L0dSoeI2Zwrx7vWlG-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="490" as="sourcePoint" />
+            <mxPoint x="720" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0.158;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.134;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="A95L0dSoeI2Zwrx7vWlG-27" target="A95L0dSoeI2Zwrx7vWlG-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="500" as="sourcePoint" />
+            <mxPoint x="730" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0.026;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="A95L0dSoeI2Zwrx7vWlG-33" target="A95L0dSoeI2Zwrx7vWlG-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="510" as="sourcePoint" />
+            <mxPoint x="740" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0.042;entryY=0.97;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.008;exitY=0.977;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="A95L0dSoeI2Zwrx7vWlG-35" target="A95L0dSoeI2Zwrx7vWlG-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="410" as="sourcePoint" />
+            <mxPoint x="130" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-28" value="" style="endArrow=none;html=1;rounded=0;entryX=0.158;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.134;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="A95L0dSoeI2Zwrx7vWlG-4" target="A95L0dSoeI2Zwrx7vWlG-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="297" y="510" as="sourcePoint" />
+            <mxPoint x="355" y="319" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-27" value="&lt;strong data-start=&quot;1049&quot; data-end=&quot;1083&quot;&gt;Data Out → System / Operators:&lt;/strong&gt; Bin status updates, alerts, optimized collection recommendations." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-30" value="" style="endArrow=none;html=1;rounded=0;entryX=0.832;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.829;exitY=0.04;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="A95L0dSoeI2Zwrx7vWlG-4" target="A95L0dSoeI2Zwrx7vWlG-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="514" as="sourcePoint" />
+            <mxPoint x="483" y="318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-29" value="&lt;strong data-start=&quot;1157&quot; data-end=&quot;1178&quot;&gt;Data In ← System:&lt;/strong&gt; Sensor data from gateway nodes." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="410" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-34" value="" style="endArrow=none;html=1;rounded=0;entryX=0.026;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.983;exitY=0.089;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="A95L0dSoeI2Zwrx7vWlG-5" target="A95L0dSoeI2Zwrx7vWlG-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-12" y="151" as="sourcePoint" />
+            <mxPoint x="330" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-33" value="&lt;strong data-start=&quot;1340&quot; data-end=&quot;1362&quot;&gt;Data Out → System:&lt;/strong&gt; Route adjustments, acknowledgments of alerts, manual updates." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-36" value="" style="endArrow=none;html=1;rounded=0;entryX=0.042;entryY=0.97;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.008;exitY=0.977;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="A95L0dSoeI2Zwrx7vWlG-5" target="A95L0dSoeI2Zwrx7vWlG-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-9" y="462" as="sourcePoint" />
+            <mxPoint x="333" y="317" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A95L0dSoeI2Zwrx7vWlG-35" value="&lt;strong data-start=&quot;1432&quot; data-end=&quot;1453&quot;&gt;Data In ← System:&lt;/strong&gt; Real-time bin status, alerts, historical reports, maps." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="380" width="110" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
