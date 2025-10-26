@@ -4,6 +4,8 @@ import {collectorRoute} from '../schema/collectorRoute'
 import {wasteRequest} from '../schema/wasteRequest'
 import {feedback} from '../schema/feedback'
 import {wasteCollector} from '../schema/wasteCollector'
+import {collectorReport} from '../schema/collectorReport'
+import {residentReport} from '../schema/residentReport'
 
 export const schema = {
   types: [
@@ -12,6 +14,8 @@ export const schema = {
     collectorRoute,
     wasteRequest,
     feedback,
-    wasteCollector
+    wasteCollector,
+    collectorReport,
+    residentReport
   ],
 }

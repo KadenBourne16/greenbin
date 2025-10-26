@@ -52,11 +52,9 @@ export default function ResidentDashboard() {
       }
 
       const data = await response.json();
-      console.log('Fetched data:', data);
 
       //calculate pending requests
       const pendingRequests = data.wasteRequests.filter(req => req.status === 'pending');
-      console.log('Pending requests:', pendingRequests);
 
       // Update state with fetched data
       if (data.wasteRequests) {

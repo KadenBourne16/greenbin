@@ -3,8 +3,6 @@ import { client } from '@/sanity/lib/client';
 
 export async function GET() {
     try {
-        console.log('Testing Sanity connection...');
-
         // Test basic connection
         const totalResidents = await client.fetch('count(*[_type == "resident"])');
         const sampleResident = await client.fetch('*[_type == "resident"][0]');

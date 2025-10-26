@@ -43,7 +43,6 @@ export default function Login() {
 
     setIsSubmitting(true);
     try {
-      console.log('Login form submitted:', formData);
       const response = await fetch('/api/login', {
         method: 'POST',
         headers: {

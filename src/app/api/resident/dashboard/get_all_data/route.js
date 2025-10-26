@@ -19,9 +19,6 @@ export async function GET(request) {
         // Get resident's bin information (if bins are linked to residents)
         // const bins = await client.fetch(`*[_type == "bin" && resident._ref == "${resident_id}"]`);
 
-        console.log('Resident:', resident);
-        console.log('Waste Requests:', wasteRequests);
-
         return NextResponse.json({
             resident,
             wasteRequests,

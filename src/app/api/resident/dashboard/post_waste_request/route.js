@@ -46,10 +46,7 @@ export async function POST(request) {
             remarks: remarks || '', // Handle optional remarks field
         };
 
-        console.log('Creating waste request with data:', newRequest);
-
         const result = await client.create(newRequest);
-        console.log('New waste request created successfully:', result);
 
         return NextResponse.json({
             message: 'Waste request created successfully',

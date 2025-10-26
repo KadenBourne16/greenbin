@@ -29,5 +29,6 @@ export const wasteCollector = defineType({
       options: { list: ['available', 'onDuty', 'offline'] },
     }),
     defineField({ name: 'lastUpdated', title: 'Last Updated', type: 'datetime' }),
+    defineField({name: "passwordHash", title: "Password", type: "string"})
   ],
 });

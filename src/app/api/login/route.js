@@ -6,9 +6,7 @@ import { comparePassword } from '@/server/functions/bcrypt/bcrypt';
 export async function POST(request) {
     const { phone, password } = await request.json();
     try{
-        console.log('Login attempt for phone:', phone);
         const user = await client.fetch(`*[_type == "resident" && phoneNumber == "${phone}"][0]`);
-        console.log('Found user:', user ? 'Yes' : 'No');
 
         if (!user) {
             return NextResponse.json({ 
@@ -17,7 +15,6 @@ export async function POST(request) {
                 message: 'User not found' }, { status: 401 });
         }
 
-        console.log('Comparing password for user:', user._id);
         const isPasswordValid = await comparePassword(password, user.passwordHash);
 
         if (!isPasswordValid) {

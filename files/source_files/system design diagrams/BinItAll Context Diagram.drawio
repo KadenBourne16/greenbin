@@ -1,120 +1,87 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
   <diagram name="Page-1" id="SKL_O5HkU65HPCDYgbow">
-    <mxGraphModel dx="1556" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1140" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-2" value="BinItAll" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="K0NLjFJOnKxEMFoaCPSg-2" value="BinItAll" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="160" y="390" width="370" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-3" value="Waste Producers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="122.5" y="70" width="340" height="60" as="geometry" />
+        <mxCell id="K0NLjFJOnKxEMFoaCPSg-5" value="Waste Producers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="275" width="120" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-5" value="Waste Collectors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="990" y="260" width="120" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-8" value="Admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="K0NLjFJOnKxEMFoaCPSg-8" value="Admin" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="185" y="950" width="530" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0.4;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="K0NLjFJOnKxEMFoaCPSg-13" target="K0NLjFJOnKxEMFoaCPSg-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="480" as="sourcePoint" />
-            <mxPoint x="450" y="430" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0.583;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.135;exitY=1.015;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K0NLjFJOnKxEMFoaCPSg-21" target="K0NLjFJOnKxEMFoaCPSg-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="369.86" y="251.98" as="sourcePoint" />
-            <mxPoint x="455.86" y="379.98" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-18" value="" style="endArrow=none;html=1;rounded=0;exitX=0.271;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.4;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="K0NLjFJOnKxEMFoaCPSg-3" target="K0NLjFJOnKxEMFoaCPSg-13">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="292" y="260" as="sourcePoint" />
-            <mxPoint x="358" y="378" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-13" value="&lt;div&gt;&lt;b&gt;Data Out:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Submit waste pickup&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;requests, &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Report issues,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Provide user registration&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;and profile data,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Send feedback or&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;complaints to improve services.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="135" y="220" width="210" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0.175;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.774;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K0NLjFJOnKxEMFoaCPSg-3" target="K0NLjFJOnKxEMFoaCPSg-21">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="463" y="79" as="sourcePoint" />
-            <mxPoint x="380" y="377" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-21" value="&lt;b&gt;Data In:&lt;/b&gt; Receive notifications or reminders for scheduled collections.Get confirmation of pickup requests and updates on collection status, Access information on proper waste segregation and disposal,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;View nearest bin locations and collection centers.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="160" width="200" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-33" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.033;entryY=0.13;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="K0NLjFJOnKxEMFoaCPSg-27" target="K0NLjFJOnKxEMFoaCPSg-5">
+        <mxCell id="K0NLjFJOnKxEMFoaCPSg-33" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.033;entryY=0.13;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="K0NLjFJOnKxEMFoaCPSg-27" target="K0NLjFJOnKxEMFoaCPSg-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="680" y="500" as="sourcePoint" />
             <mxPoint x="730" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-34" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.018;entryY=0.93;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="K0NLjFJOnKxEMFoaCPSg-30" target="K0NLjFJOnKxEMFoaCPSg-5">
+        <mxCell id="K0NLjFJOnKxEMFoaCPSg-34" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.018;entryY=0.93;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="K0NLjFJOnKxEMFoaCPSg-30" target="K0NLjFJOnKxEMFoaCPSg-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="580" y="540.5" as="sourcePoint" />
             <mxPoint x="1280" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-35" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K0NLjFJOnKxEMFoaCPSg-2" target="K0NLjFJOnKxEMFoaCPSg-27">
+        <mxCell id="K0NLjFJOnKxEMFoaCPSg-35" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="K0NLjFJOnKxEMFoaCPSg-2" target="K0NLjFJOnKxEMFoaCPSg-27" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="530" y="433" as="sourcePoint" />
             <mxPoint x="1294" y="322" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-27" value="&lt;b&gt;Data In (System → Entity): &lt;/b&gt;Update collection status (completed, pending, delayed), Report bin or route issues (e.g., blocked access, overfilled bins), Submit collected waste data (volume, type), Send location data for tracking and route optimization." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="K0NLjFJOnKxEMFoaCPSg-27" value="&lt;b&gt;Data In (System → Entity):&amp;nbsp;&lt;/b&gt;Receives message from waste admin" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="335" width="210" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-36" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K0NLjFJOnKxEMFoaCPSg-2" target="K0NLjFJOnKxEMFoaCPSg-30">
+        <mxCell id="K0NLjFJOnKxEMFoaCPSg-36" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="K0NLjFJOnKxEMFoaCPSg-2" target="K0NLjFJOnKxEMFoaCPSg-30" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="530" y="475" as="sourcePoint" />
             <mxPoint x="1292" y="642" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-30" value="&lt;br&gt;&lt;b&gt;Data Out:&lt;/b&gt; Receive waste pickup requests from residents. &lt;br&gt; - Access optimized routes and collection schedules. &lt;br&gt; - Get notifications for urgent or rescheduled pickups. &lt;br&gt; - View assigned collection zones or areas." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="535" width="310" height="80" as="geometry" />
+        <mxCell id="K0NLjFJOnKxEMFoaCPSg-30" value="&lt;br&gt;&lt;b&gt;Data Out:&lt;/b&gt;&amp;nbsp;Sends pickup request to company" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="536" width="310" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-37" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="K0NLjFJOnKxEMFoaCPSg-38" target="K0NLjFJOnKxEMFoaCPSg-2">
+        <mxCell id="K0NLjFJOnKxEMFoaCPSg-37" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="K0NLjFJOnKxEMFoaCPSg-38" target="K0NLjFJOnKxEMFoaCPSg-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="470" as="sourcePoint" />
             <mxPoint x="450" y="420" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-39" value="" style="endArrow=none;html=1;rounded=0;exitX=0.363;exitY=-0.013;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.63;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="K0NLjFJOnKxEMFoaCPSg-8" target="K0NLjFJOnKxEMFoaCPSg-38">
+        <mxCell id="K0NLjFJOnKxEMFoaCPSg-39" value="" style="endArrow=none;html=1;rounded=0;exitX=0.363;exitY=-0.013;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.63;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="K0NLjFJOnKxEMFoaCPSg-8" target="K0NLjFJOnKxEMFoaCPSg-38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="242" y="909" as="sourcePoint" />
             <mxPoint x="288" y="560" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-38" value="Data Out (Entity → System)&#xa;- Input system configurations and manage user roles.&#xa;- Approve or update waste collection routes and schedules.&#xa;- Add or remove waste collectors and monitor their activities.&#xa;- Upload educational content or announcements." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="K0NLjFJOnKxEMFoaCPSg-38" value="Data Out (Entity → System) reports and new entries" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="122.5" y="660" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-40" value="" style="endArrow=none;html=1;rounded=0;exitX=0.328;exitY=-0.019;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K0NLjFJOnKxEMFoaCPSg-41" target="K0NLjFJOnKxEMFoaCPSg-2">
+        <mxCell id="K0NLjFJOnKxEMFoaCPSg-40" value="" style="endArrow=none;html=1;rounded=0;exitX=0.328;exitY=-0.019;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="K0NLjFJOnKxEMFoaCPSg-41" target="K0NLjFJOnKxEMFoaCPSg-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="890" as="sourcePoint" />
             <mxPoint x="500" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-42" value="" style="endArrow=none;html=1;rounded=0;exitX=0.965;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="K0NLjFJOnKxEMFoaCPSg-8" target="K0NLjFJOnKxEMFoaCPSg-41">
+        <mxCell id="K0NLjFJOnKxEMFoaCPSg-42" value="" style="endArrow=none;html=1;rounded=0;exitX=0.965;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="K0NLjFJOnKxEMFoaCPSg-8" target="K0NLjFJOnKxEMFoaCPSg-41" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="696" y="947" as="sourcePoint" />
             <mxPoint x="408" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-41" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-start=&quot;2049&quot; data-end=&quot;2081&quot; data-col-size=&quot;sm&quot;&gt;&lt;strong data-start=&quot;2051&quot; data-end=&quot;2080&quot;&gt;Data In (System → Entity)&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-start=&quot;2081&quot; data-end=&quot;2315&quot; data-col-size=&quot;xl&quot;&gt;- Receive system analytics and reports on collection performance. &lt;br&gt; - Access user activity logs and issue reports. &lt;br&gt; - Get alerts on failed pickups or system errors. &lt;br&gt; - View real-time data dashboards for decision-making.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="750" width="390" height="110" as="geometry" />
+        <mxCell id="K0NLjFJOnKxEMFoaCPSg-41" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-start=&quot;2049&quot; data-end=&quot;2081&quot; data-col-size=&quot;sm&quot;&gt;&lt;strong data-start=&quot;2051&quot; data-end=&quot;2080&quot;&gt;Data In (System → Entity)&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td data-start=&quot;2081&quot; data-end=&quot;2315&quot; data-col-size=&quot;xl&quot;&gt;Access user request, complaint&amp;nbsp; and issue reports.&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="750" width="170" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-43" value="Data Out (Entity → System)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="K0NLjFJOnKxEMFoaCPSg-43" value="Data Out (Entity → System)" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="60" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-44" value="Data In (System → Entity)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="K0NLjFJOnKxEMFoaCPSg-44" value="Data In (System → Entity)" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="645" y="90" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="K0NLjFJOnKxEMFoaCPSg-45" value="&lt;b&gt;Key&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="K0NLjFJOnKxEMFoaCPSg-45" value="&lt;b&gt;Key&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="695" y="30" width="50" height="30" as="geometry" />
         </mxCell>
       </root>

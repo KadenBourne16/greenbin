@@ -4,7 +4,6 @@ import { verifyToken } from "@/server/functions/token/token";
 export const validateToken = async (token) => {
     try {
         const isValid = await verifyToken(token);
-        console.log(isValid)
         if (!isValid) {
             return ({ 
                 type: "error",
